@@ -1,0 +1,31 @@
+   0 list /home/
+   1 ls /home/
+   2 ls /home
+   3 mkdir /home/usr
+   4 ls /home/
+   5 mkdir /home/usr/start
+   6 touch /home/usr/start/1.txt
+   7 cd /home/usr/start/
+   8 tree /home/
+   9 start >> /home/usr/start/1.txt 
+  10 cat /home/usr/start/1.txt 
+  11 echo "Start" > /home/usr/start/1.txt 
+  12 cat /home/usr/start/1.txt 
+  13 date >> /home/usr/start/1.txt 
+  14 cat /home/usr/start/1.txt 
+  15 cd ~
+  16 mkdir /opt/task
+  17 cp 1.txt /opt/task/
+  18 cp /home/usr/start/1.txt  /opt/task/
+  19 tree /opt/task/
+  20 cat /opt/task/1.txt 
+  21 ls -la /
+  22 ls -la / | tail -4
+  23 ls -a / | tail -4
+  24 ls -la / | tail -4
+  25 echo "dr-xr-xr-x 12 root    root        0 mar 26 21:12 sys" >> /opt/task/1.txt 
+  26 cat /opt/task/1.txt 
+  27 echo "drwxrwxrwt 2 root    root        37 jan 9 2021 tmp" >> /opt/task/1.txt 
+  28 echo "drwxr-xr-x 10 root    root        229 jan 24 2020 usr" >> /opt/task/1.txt 
+  29 echo "drwxr-xr-x 16 root    root        348 aug 27 2020 var" >> /opt/task/1.txt 
+  30 history > /tmp/Linux_Domaha.txt
