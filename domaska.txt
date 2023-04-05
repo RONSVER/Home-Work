@@ -1,0 +1,11 @@
+Tue Apr  4 14:01:42 UTC 2023
+==> / <==
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p1   20G  9.1G   11G  46% /
+ 1033  tail -n+5 
+ 1034  cd history
+ 1035  cat history | tail -5
+ 1036  history | tail -5
+ 1037  history | tail -5 >> domaska.txt 
+vendor
+7
